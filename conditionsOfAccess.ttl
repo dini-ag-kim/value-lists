@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Zugangsbedinungen (Login)"@de ;
-    dct:title "Conditions of Access (login)"@en ;
+    dct:title "Zugangsbedingungen (Login)"@de ;
+    dct:title "Conditions of access (login)"@en ;
     dct:description "Describes conditions of access to an object."@en ;
     dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
     dct:created "2022-02-08"^^xsd:date ;
