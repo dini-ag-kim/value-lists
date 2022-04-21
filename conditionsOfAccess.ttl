@@ -16,7 +16,7 @@
 <no_login> a skos:Concept ;
     skos:prefLabel "keine Anmeldung erforderlich"@de ;
     skos:prefLabel "no login required"@en ;
-    scos:prefLabel "вхід без авторизації"@uk ;
+    skos:prefLabel "вхід без авторизації"@uk ;
     skos:topConceptOf <> .
 
 <login> a skos:Concept ;
