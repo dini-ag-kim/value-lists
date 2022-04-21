@@ -6,6 +6,7 @@
 <> a skos:ConceptScheme ;
     dct:title "Zugangsbedingungen (Login)"@de ;
     dct:title "Conditions of access (login)"@en ;
+    dct:title "Умови доступу (логін)"@uk ;
     dct:description "Describes conditions of access to an object."@en ;
     dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
     dct:created "2022-02-08"^^xsd:date ;
@@ -15,9 +16,11 @@
 <no_login> a skos:Concept ;
     skos:prefLabel "keine Anmeldung erforderlich"@de ;
     skos:prefLabel "no login required"@en ;
+    scos:prefLabel "вхід без авторизації"@uk ;
     skos:topConceptOf <> .
 
 <login> a skos:Concept ;
     skos:prefLabel "Anmeldung erforderlich"@de ;
     skos:prefLabel "login required"@en ;
+    skos:prefLabel "для авторизації вкажіть логін"@uk ;
     skos:topConceptOf <> .
